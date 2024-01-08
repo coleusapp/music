@@ -7,7 +7,7 @@
     "css": [
       "TheHome-d7b3339c.css"
     ],
-    "file": "TheHome-b476d158.js",
+    "file": "TheHome-0d9c381d.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -15,17 +15,17 @@
     "src": "resources/js/Pages/TheHome.vue"
   },
   "resources/js/app.css": {
-    "file": "app-04a3c493.css",
+    "file": "app-835977ff.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
     "css": [
-      "app-04a3c493.css"
+      "app-835977ff.css"
     ],
     "dynamicImports": [
       "resources/js/Pages/TheHome.vue"
     ],
-    "file": "app-ff6b62fc.js",
+    "file": "app-ec6ec99e.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

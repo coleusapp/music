@@ -1,6 +1,5 @@
 <script>
 import videojs from 'video.js'
-import "videojs-playlist/dist/videojs-playlist"
 import "video.js/dist/video-js.css"
 
 export default {
@@ -12,12 +11,6 @@ export default {
         return {}
       }
     },
-    playlist: {
-      type: Object,
-      default() {
-        return {}
-      }
-    }
   },
   data() {
     return {
@@ -26,12 +19,9 @@ export default {
   },
   mounted() {
     this.player = videojs(this.$refs.audioPlayer, this.options, () => {
-      this.player.log('onPlayerReady', this)
+      this.player.aspectRatio('1:1')
+      this.player.responsive(true)
     })
-    this.player.aspectRatio('1:1')
-    this.player.responsive(true)
-    this.player.playlist(this.playlist)
-    this.player.playlist.autoadvance(0)
   },
   beforeUnmount() {
     if (this.player) {

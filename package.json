@@ -24,8 +24,5 @@
         "vite": "^4.3.9",
         "vue": "^3.3.4",
         "ziggy-js": "^1.6.0"
-    },
-    "dependencies": {
-        "videojs-playlist": "^5.1.0"
     }
 }

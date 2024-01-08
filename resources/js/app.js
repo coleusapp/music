@@ -1,10 +1,10 @@
-import '../css/app.css';
-import {createApp, h} from 'vue';
-import {createInertiaApp, Link} from '@inertiajs/vue3';
-import ThePlain from "@ui/Layouts/ThePlain.vue";
-import {resolvePageComponent} from "laravel-vite-plugin/inertia-helpers";
+import '../css/app.css'
+import { createApp, h } from 'vue'
+import { createInertiaApp, Link } from '@inertiajs/vue3'
+import ThePlain from "@ui/Layouts/ThePlain.vue"
+import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers"
 
-const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Account';
+const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Account'
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
@@ -21,4 +21,4 @@ createInertiaApp({
     progress: {
         color: '#4B5563',
     },
-});
+})

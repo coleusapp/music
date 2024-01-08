@@ -1,9 +1,9 @@
-import {defineConfig} from "vite";
-import laravel from "laravel-vite-plugin";
-import vue from "@vitejs/plugin-vue";
-import path from "path";
+import { defineConfig } from "vite"
+import laravel from "laravel-vite-plugin"
+import vue from "@vitejs/plugin-vue"
+import path from "path"
 
-const rootPath = '../../../../coleus-dev';
+const rootPath = '../../../../coleus-dev'
 
 export default defineConfig({
     envDir: rootPath,
@@ -23,7 +23,7 @@ export default defineConfig({
             refresh: true,
             buildDirectory: 'dist',
             publicDirectory: 'resources',
-            hotFile: `${rootPath}/public/hot`
+            hotFile: `${rootPath}/public/hot`,
         }),
         vue({
             template: {
@@ -34,4 +34,4 @@ export default defineConfig({
             },
         }),
     ],
-});
+})
