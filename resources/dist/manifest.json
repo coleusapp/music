@@ -1,71 +1,31 @@
 {
-  "_InputForm-b4aca5de.js": {
-    "file": "InputForm-b4aca5de.js",
+  "resources/js/Pages/TheHome.css": {
+    "file": "TheHome-d7b3339c.css",
+    "src": "resources/js/Pages/TheHome.css"
+  },
+  "resources/js/Pages/TheHome.vue": {
+    "css": [
+      "TheHome-d7b3339c.css"
+    ],
+    "file": "TheHome-a3685945.js",
     "imports": [
-      "_index.m-888d95fc.js",
       "resources/js/app.js"
-    ]
-  },
-  "_index.m-888d95fc.js": {
-    "file": "index.m-888d95fc.js",
-    "imports": [
-      "resources/js/app.js"
-    ]
-  },
-  "resources/js/Pages/ForgotPassword.vue": {
-    "file": "ForgotPassword-11f996f1.js",
-    "imports": [
-      "resources/js/app.js",
-      "_index.m-888d95fc.js",
-      "_InputForm-b4aca5de.js"
     ],
     "isDynamicEntry": true,
-    "src": "resources/js/Pages/ForgotPassword.vue"
-  },
-  "resources/js/Pages/ResetPassword.vue": {
-    "file": "ResetPassword-6e1e53a4.js",
-    "imports": [
-      "resources/js/app.js",
-      "_index.m-888d95fc.js",
-      "_InputForm-b4aca5de.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/js/Pages/ResetPassword.vue"
-  },
-  "resources/js/Pages/TheLogin.vue": {
-    "file": "TheLogin-fefc441c.js",
-    "imports": [
-      "resources/js/app.js",
-      "_InputForm-b4aca5de.js",
-      "_index.m-888d95fc.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/js/Pages/TheLogin.vue"
-  },
-  "resources/js/Pages/TheRegister.vue": {
-    "file": "TheRegister-87e40c63.js",
-    "imports": [
-      "resources/js/app.js",
-      "_index.m-888d95fc.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/js/Pages/TheRegister.vue"
+    "src": "resources/js/Pages/TheHome.vue"
   },
   "resources/js/app.css": {
-    "file": "app-4f1fea25.css",
+    "file": "app-312ba821.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
     "css": [
-      "app-4f1fea25.css"
+      "app-312ba821.css"
     ],
     "dynamicImports": [
-      "resources/js/Pages/ForgotPassword.vue",
-      "resources/js/Pages/ResetPassword.vue",
-      "resources/js/Pages/TheLogin.vue",
-      "resources/js/Pages/TheRegister.vue"
+      "resources/js/Pages/TheHome.vue"
     ],
-    "file": "app-e6975488.js",
+    "file": "app-6d97e58f.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

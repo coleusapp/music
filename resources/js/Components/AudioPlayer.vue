@@ -28,6 +28,8 @@ export default {
     this.player = videojs(this.$refs.audioPlayer, this.options, () => {
       this.player.log('onPlayerReady', this)
     })
+    this.player.aspectRatio('1:1')
+    this.player.responsive(true)
     this.player.playlist(this.playlist)
     this.player.playlist.autoadvance(0)
   },
